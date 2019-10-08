@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1570538473 source:d:\mauricio gonzales\genero.c
+	<stdio.h>
+	"peliculas.h"
+	"genero.h"
+
+1570543908 source:d:\mauricio gonzales\main.c
+	<stdio.h>
+	<stdlib.h>
+	"peliculas.h"
+	"genero.h"
+	"actores.h"
+
+1570538089 source:d:\mauricio gonzales\peliculas.c
+	<stdio.h>
+	<string.h>
+	"peliculas.h"
+	"genero.h"
+
+1570545097 d:\mauricio gonzales\peliculas.h
+	<stdio.h>
+	"Inputs.h"
+
+1570537958 d:\mauricio gonzales\genero.h
+
+1570539197 d:\mauricio gonzales\inputs.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1570540506 source:d:\mauricio gonzales\funcionesaux.c
+
+1570539197 source:d:\mauricio gonzales\inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Inputs.h"
+	<ctype.h>
+	<conio.h>
+
+1570544183 source:d:\mauricio gonzales\actores.c
+	"actores.h"
+
+1570543710 d:\mauricio gonzales\actores.h
+	<stdio.h>
+	"Inputs.h"
+
+1570544183 source:d:\mauricio gonzales\elenco.c
+
