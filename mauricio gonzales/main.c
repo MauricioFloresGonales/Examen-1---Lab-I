@@ -7,7 +7,7 @@
 
 #define TP 5
 #define TG 4
-#define TA 5
+#define TA 8
 
 int main()
 {
@@ -18,6 +18,7 @@ int main()
     int opcion;
 
     inicializarEmpleados(actores,TA);
+    harcodeoActores(actores,5);
 
     do{
         printf("1- Gestion de Actores:\n");

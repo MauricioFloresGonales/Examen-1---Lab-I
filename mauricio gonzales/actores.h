@@ -15,13 +15,14 @@ typedef struct
 
 
 void menuActores(eActor actores[],int len);
+void harcodeoActores(eActor actores[],int len);
 void inicializarEmpleados(eActor actores[],int len);//PRINCIPAL
 void ingresarActores(eActor actores[],int len);
 int idAuto(eActor [],int len,int valMenor);
 int idMayor(eActor [],int len,int valMenor);
-int indiceLibre(eActor actores[],int len);
+int indiceLibreActores(eActor actores[],int len);
 void modicficarActor(eActor actores[],int len);//PRINCIPAL
-int buscarCodigo(eActor actores[],int len);
+int buscarCodigoActores(eActor actores[],int len);
 void mostrarUnActor(eActor actores[],int indice);
 void MostrarActores(eActor actores[],int len);//PRINCIPAL
 void borrarAlumno(eActor actores[],int len);

@@ -48,3 +48,52 @@
 
 1570544183 source:d:\mauricio gonzales\elenco.c
 
+1570988674 source:c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\actores.c
+	"actores.h"
+
+1570988586 c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\actores.h
+	<stdio.h>
+	"Inputs.h"
+
+1570978245 c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\inputs.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1570978245 source:c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\elenco.c
+
+1570978245 source:c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\funcionesaux.c
+
+1570990611 source:c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\genero.c
+	<stdio.h>
+	"peliculas.h"
+	"genero.h"
+
+1570990705 c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\peliculas.h
+	<stdio.h>
+	"Inputs.h"
+
+1570990611 c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\genero.h
+
+1570978245 source:c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Inputs.h"
+	<ctype.h>
+	<conio.h>
+
+1570986288 source:c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\main.c
+	<stdio.h>
+	<stdlib.h>
+	"peliculas.h"
+	"genero.h"
+	"actores.h"
+
+1570978245 source:c:\users\pipoca\desktop\examen-1---lab-i\mauricio gonzales\peliculas.c
+	<stdio.h>
+	<string.h>
+	"peliculas.h"
+	"genero.h"
+
