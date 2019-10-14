@@ -2,7 +2,6 @@
 #include <string.h>
 
 #include "peliculas.h"
-#include "genero.h"
 
 
 //file:///Y:/%23%23%23%20LAB1/PPLI%201C%20Parte%201.docx.pdf

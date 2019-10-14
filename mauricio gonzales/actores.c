@@ -53,7 +53,7 @@ void harcodeoActores(eActor actores[],int len)
 
 //---------------------------------------------------------------------------------------------------------------------------------
 
-void inicializarEmpleados(eActor actores[],int len)
+void inicializarActores(eActor actores[],int len)
  {
      int i;
      for(i=0;i<len;i++)

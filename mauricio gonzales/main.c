@@ -2,22 +2,24 @@
 #include <stdlib.h>
 
 #include "peliculas.h"
-#include "genero.h"
 #include "actores.h"
+#include "elenco.h"
 
 #define TP 5
 #define TG 4
 #define TA 8
+#define TE 8
 
 int main()
 {
-    //ePelicula peliculas[TP];
-    //eGenero generos[TG];
+    ePelicula peliculas[TP];
+    eGenero generos[TG];
     eActor actores[TA];
+    eElenco elencos[TE];
 
     int opcion;
 
-    inicializarEmpleados(actores,TA);
+    inicializarActores(actores,TA);
     harcodeoActores(actores,5);
 
     do{
@@ -34,10 +36,7 @@ int main()
             menuActores(actores,TA);
             break;
         case 2:
-
-            break;
-        case 3:
-
+            ingreseElenco(elencos,TE,peliculas,TP,generos,TG,actores,TA);
             break;
         default:
             printf("SALIR");

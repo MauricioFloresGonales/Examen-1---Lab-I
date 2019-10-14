@@ -9,4 +9,8 @@ typedef struct
 
 }eElenco;
 
-void ingreseElenco(eElenco[],int len);
+void inicializarElencos(eElenco[],int len);
+int indiceLibreElenco(eElenco [],int len);
+
+void ingreseElenco(eElenco[],int te,ePelicula[],int tp,eGenero[],int tg,eActor[],int ta);
+

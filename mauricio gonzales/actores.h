@@ -11,18 +11,18 @@ typedef struct
     char apellido[51];/**Validar*/
     char sexo; /**Validar */
     int estado;
+
 }eActor;
 
-
-void menuActores(eActor actores[],int len);
-void harcodeoActores(eActor actores[],int len);
-void inicializarEmpleados(eActor actores[],int len);//PRINCIPAL
-void ingresarActores(eActor actores[],int len);
-int idAuto(eActor [],int len,int valMenor);
-int idMayor(eActor [],int len,int valMenor);
-int indiceLibreActores(eActor actores[],int len);
-void modicficarActor(eActor actores[],int len);//PRINCIPAL
-int buscarCodigoActores(eActor actores[],int len);
-void mostrarUnActor(eActor actores[],int indice);
-void MostrarActores(eActor actores[],int len);//PRINCIPAL
-void borrarAlumno(eActor actores[],int len);
+void menuActores(eActor[],int len);
+void harcodeoActores(eActor[],int len);
+void inicializarActores(eActor[],int len);//PRINCIPAL
+void ingresarActores(eActor[],int len);
+int idAuto(eActor[],int len,int valMenor);
+int idMayor(eActor[],int len,int valMenor);
+int indiceLibreActores(eActor[],int len);
+void modicficarActor(eActor[],int len);//PRINCIPAL
+int buscarCodigoActores(eActor[],int len);
+void mostrarUnActor(eActor[],int indice);
+void MostrarActores(eActor[],int len);//PRINCIPAL
+void borrarAlumno(eActor[],int len);
